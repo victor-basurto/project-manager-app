@@ -15,6 +15,11 @@ export default function NewProject({ onAdd }) {
       description: enteredDescription,
       dueDate: enteredDueDate,
     });
+    // setTimeout(() => {
+    //   title.current.value = "";
+    //   description.current.value = "";
+    //   dueDate.current.value = "";
+    // }, 1000);
   }
   return (
     <div className="w-[35rem] mt-16">
