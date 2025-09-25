@@ -19,7 +19,7 @@ function App() {
     setProjectState((prevState) => {
       const newProject = {
         ...projectData,
-        id: Math.random(),
+        id: crypto.randomUUID(),
       };
       return {
         ...prevState,
